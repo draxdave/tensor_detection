@@ -23,7 +23,7 @@ def generate_node(label):
 
 
 def create_label_map():
-    resources_path = basePath.replace('tensor3', 'ODPyWS') + "/res/images"
+    resources_path = basePath.replace('tensor3', 'ODPyWS') + "res/images"
     iteration = 0
 
     with open(basePath + "res/training/labelmap.pbtxt", 'w') as label_map_file:

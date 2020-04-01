@@ -10,7 +10,7 @@ import m_util
 import time
 import threading
 
-basePath = "/home/siamak/PycharmProjects/tensor3/"
+basePath = "/home/ubuntu/green/tensor_detection/"
 m_util.init_logger(basePath)
 
 
@@ -39,7 +39,7 @@ def run():
 
     threading.Thread(target=start_training, daemon=True).start()
 
-    time.sleep(len(labelMapList) * (60 * 60) * 0.5)
+#    time.sleep(len(labelMapList) * (60 * 60) * 0.5)
     # time.sleep(180)
     'Wait until the training process generates some files'
 
